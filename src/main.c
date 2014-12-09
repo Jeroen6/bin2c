@@ -45,11 +45,11 @@ const char *commandLineHelp =
 #define indentString            "    "
 #define outputFormatBase        "0x%.2X"
 #define outputFormat            outputFormatBase", "
-#define outputFormatEOL         outputFormatBase",\n"
-#define outputFormatEOF         outputFormatBase"\n"
-#define sizeDefinition          "const long int %s_size = %d;\n"
-#define sizeDefinitionHeader    "const long int %s_size; // %d\n"
-#define sizeMacroDefinition     "#define %s_size %d\n"
+#define outputFormatEOL         outputFormatBase",\r\n"
+#define outputFormatEOF         outputFormatBase"\r\n"
+#define sizeDefinition          "const long int %s_size = %d;\r\n"
+#define sizeDefinitionHeader    "const long int %s_size; // %d\r\n"
+#define sizeMacroDefinition     "#define %s_size %d\r\n"
 #define typeName                "const unsigned char"
 
 /* Define bool */
