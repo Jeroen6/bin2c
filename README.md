@@ -1,8 +1,10 @@
-* bin2c 1.0
+* bin2c 1.1
 
 bin2c is a simple commandline utility that generates C source files from binary files. It can be used to embed external files into C or C++ programs.
 
-Visit sourceforge.net/projects/bin2c to for new versions.
+Forked from sourceforge.net/projects/bin2c by Jeroen6 (https://github.com/Jeroen6)
+  - Modified to create valid header files
+  - Set to CRLF line endings
 
 * License
 
@@ -11,6 +13,8 @@ To the extent possible under law, Fatih Aygün has waived all copyright and rela
 * Compilation
 
 bin2c is a standard C program that you can compile with your favorite C compiler. A ready to run Windows executable compiled with mingw cross-compiler is included in the package.
+
+This repository contains Qt 5 project files.
 
 * Usage
 
